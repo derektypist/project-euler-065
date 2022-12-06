@@ -8,7 +8,7 @@ function getNumberInfo() {
     if (isNaN(num) || num.length == 0 || num < 2 || num > 100 || (num.length > 1 && num[0] == "0") || !Number.isInteger(Number(num))) {
         txt += `Invalid Input.  Please enter a whole number between 2 and 100.  Do not include leading zeros.`;
     } else {
-        txt += `You have entered the number ${num}. <p>`;
+        txt += `You have entered the number ${num}. `;
         txt += `Sum of Digits in Numerator is ${convergentsOfE(num)} for the continued fraction of e.`;
     }
 
