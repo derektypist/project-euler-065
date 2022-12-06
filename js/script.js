@@ -15,3 +15,34 @@ function getNumberInfo() {
     // Display Information in the Browser
     document.getElementById("numinfo").innerHTML = txt;
 }
+
+/*
+    Function to return the sum of the digits of the nth convergent of
+    the continued fraction for e
+
+    convergentsOfE(10)  returns 17
+    convergentsOfE(30)  returns 53
+    convergentsOfE(50)  returns 91
+    convergentsOfE(70)  returns 169
+    convergentsOfE(100) returns 272
+*/
+function convergentsOfE(n) {
+    function sumDigits(num) {
+        let sum = 0n;
+        while (num > 0) {
+            sum += num % 10n;
+            num = num / 10n;
+        }
+        return parseInt(sum);
+    }
+
+    let convergents = [[2n,1n], [3n,1n]];
+    const multipliers = [1n,1n,2n];
+    for (let i=2;i<n;i++) {
+        const [secondLastConvergent, lastConvergent] = convergents;
+        const [secondLastNumerator, secondLastDenominator] = secondLastConvergent;
+        const [lastNumerator, lastDenominator] = lastConvergent;
+        const curMultiplier = multipliers[i%3];
+        const numerator = secondLastNumerator + curMultiplier * lastNumerator;
+    }
+}
