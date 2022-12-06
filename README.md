@@ -25,3 +25,25 @@ The sum of digits in the numerator of the 10th convergent is 1 + 4 + 5 + 7 = 17.
 Find the sum of the digits in the numerator of the nth convergent of the continued fraction for e.
 
 Information at [Project Euler 065](https://projecteuler.net/problem=65)
+
+## UX
+
+**User Stories**
+
+As a user, I expect the function `convergentsOfE(10)` to return a number.
+
+As a user, I expect the function `convergentsOfE(10)` to return 17.
+
+As a user, I expect the function `convergentsOfE(30)` to return 53.
+
+As a user, I expect the function `convergentsOfE(50)` to return 91.
+
+As a user, I expect the function `convergentsOfE(70)` to return 169.
+
+As a user, I expect the function `convergentsOfE(100)` to return 272.
+
+User Stories on function `convergentsOfE(n)` taken from [FreeCodeCamp - Coding Interview Prep - Project Euler 065](https://www.freecodecamp.org/learn/coding-interview-prep/project-euler/problem-65-convergents-of-e)
+
+**Information Architecture**
+
+The function `convergentsOfE(n)` returns a number, where n is a number between 1 and 100.
