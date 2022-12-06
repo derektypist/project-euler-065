@@ -70,3 +70,21 @@ Allows the user to enter a number in order to get the sum of digits in the numer
 
 Uses HTML5, CSS3, JavaScript with BigInt, Bootstrap 5.2.3 and Google Fonts.
 
+## Testing
+
+Ensure all user stories have been met.
+
+## Deployment
+
+Deployed on [GitHub Pages](https://derektypist.github.io/project-euler-065) at the main branch.
+
+## Credits
+
+### Content
+
+Written by me.
+
+### Acknowledgements
+
+- [Project Euler](https://projecteuler.net)
+- [FreeCodeCamp](https://www.freecodecamp.org)
