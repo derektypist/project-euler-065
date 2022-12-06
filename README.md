@@ -28,7 +28,21 @@ Information at [Project Euler 065](https://projecteuler.net/problem=65)
 
 ## UX
 
+**Getting Started**
+
+Enter a whole number between 1 and 100 (without leading zeros) in the input field and select the Submit Button.  You will see the sum of digits in the numerator of the nth convergent of the continued fraction of e, unless you have made an invalid input.  Select the Reset Button to clear the information or to start again.
+
 **User Stories**
+
+As a user, I expect to get an error message, if I do any of:
+
+- Not enter anything in the input field
+- Entering text other than a number
+- Entering a number less than 1 or greater than 100
+- Including leading zeros such as 01
+- Entering a number, but it is not an integer
+
+As a user, if I select the Reset Button, I can clear the information or start again.
 
 As a user, I expect the function `convergentsOfE(10)` to return a number.
 
