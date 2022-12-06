@@ -9,7 +9,7 @@ function getNumberInfo() {
         txt += `Invalid Input.  Please enter a whole number between 2 and 100.  Do not include leading zeros.`;
     } else {
         txt += `You have entered the number ${num}. `;
-        txt += `Sum of Digits in Numerator is ${convergentsOfE(num)} for the continued fraction of e.`;
+        txt += `Sum of Digits in Numerator is ${convergentsOfE(num)} of the continued fraction for e.`;
     }
 
     // Display Information in the Browser
