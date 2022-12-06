@@ -61,3 +61,12 @@ User Stories on function `convergentsOfE(n)` taken from [FreeCodeCamp - Coding I
 **Information Architecture**
 
 The function `convergentsOfE(n)` returns a number, where n is a number between 1 and 100.
+
+## Features
+
+Allows the user to enter a number in order to get the sum of digits in the numerator of the nth convergent of the continued fraction for e.  Performs checks on valid user input.  If the input is invalid, an error message is displayed.
+
+## Technologies
+
+Uses HTML5, CSS3, JavaScript with BigInt, Bootstrap 5.2.3 and Google Fonts.
+
